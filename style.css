@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    margin:0; 
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#FFDCCC;
+}
+
+.form-background{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.form{
+    width:67vw;
+    height:90vh;
+    background-color:#B0FF92;
+    padding:0px 20px 10px 20px;
+    border-radius:0 30px 30px;
+}
+
+.heading{
+    height:80px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+    padding:20px 50px;
+}
+
+.heading h1{
+    font-family: 'Lemon', serif;
+    font-size: 30px;
+}
+
+.heading h2{
+    font-family: 'Kanit', sans-serif;
+    margin-left:10px;
+    font-size: 20px;
+    color:red;
+    font-weight: 900;
+}
+
+.info{
+    height:86%;
+}
+.personal{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+    font-size:1.2rem;
+}
+
+.personal input{
+    width:70%;
+    height:40px;        
+    border-radius:6px;
+}
+
+.personal select{
+    width:70%;
+    height:30px;
+    border-radius:5px;
+}
+
+.personal-info2{
+    margin-top:40px;
+    width:90%;
+    height:120px;
+    font-size:1.2rem;
+}
+
+.personal-info2 input{
+    width: 100%;
+    height:60px;
+    overflow:auto;
+    margin-top:6px;
+    border:2px solid transparent;
+    background-color:#B0FF92;
+    border:2px solid transparent;
+    border-bottom:2px solid black;
+    transition:0.4s border ease-in-out;
+}
+
+.personal-info2 input:hover{
+    border:2px solid black;
+    border-radius:20px;
+}
